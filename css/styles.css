@@ -1,0 +1,110 @@
+:root{ 
+    --primary-text-colour: rgba(0, 0, 0, 0.8);
+    --title-text-colour: #000000;
+    --accent-colour: #68a519 ;
+    --primary-bg-colour: #FFFFFF;
+
+}
+
+
+
+body {
+background-colour: var (--primary-bg-colour);
+color:  var(--primary-text-colour);
+font-family: Montserrat; sans-serif;
+letter-spacing: -0.015cm;
+font-size: 18px;
+line-height: 1.67; 
+
+
+list-style: none;
+}
+h1,h2,h3{
+font-family: Comfortaa;
+
+}
+/* Hero */
+.hero-title {
+color: var(--title-text-colour);
+font-weight: 400;
+font-size: 56px;
+line-height: 1.42; 
+text-align: center;
+
+}
+/* Section */
+.section-title {
+color: var(--title-text-colour);
+font-weight: 400;
+font-size: 48px;
+line-height: 1.5; 
+text-align: center;
+}
+/* Features*/
+.feature-list.title,.work-list.title   {
+color: var(--title-text-colour);
+font-weight: 700;
+font-size: 24px;
+line-height: 1.5; 
+text-align: center;
+}
+.feature-list.text{     
+font-size: 18px;
+line-height: 1.67; 
+
+}
+
+/* Logo */ 
+.logo{
+    color:  var(-title-text-colour);
+    font-family: Comfortaa, cursive;
+    font-size: 28px;
+    line-height: 1.14; 
+
+}
+.logo:hover{
+    color: var (--accent-colour);         
+}
+button{
+font-family: inherit;
+
+}
+
+/*цвет основного текста*/
+/* Site nav*/
+.site-nav.link {
+    colour: var(--primary-text-colour);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.2; 
+   
+}
+.site-nav.link:hover ,
+.site-nav.link:focus{
+    colour: var(--title-text-colour);
+}
+.site-nav.link.curent {
+    colour: var(--accent-colour);
+}
+
+.hero-title, .features-title, .work-title  {
+    colour: var(--title-text-colour);
+} 
+/* Hero */
+.hero-title {
+    colour: var(--title-text-colour);
+} 
+
+/* Features */
+.feature-list .title {
+    colour: var(--title-text-colour);
+}
+.page.web1 {
+    colour: var(--accent-colour);
+}
+/* Button*/
+.button{
+    color: var(--title-text-colour);
+    background-color: var(--primary-bg-colour);
+}
