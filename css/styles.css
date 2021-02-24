@@ -1,38 +1,79 @@
 :root{ 
-    --primary-text-colour: rgba(0, 0, 0, 0.8);
+    --primary-text-colour:  #757575;
     --title-text-colour: #000000;
-    --accent-colour: #68a519 ;
+    --accent-colour: #212121; 
     --primary-bg-colour: #FFFFFF;
 
 }
+.link{
+    text-decoration: none;
+}
 
+.list{
+    list-style: none;
+}
 
+.address{
+    font-style: normal;
+}
+.logo {
+font-family: Raleway;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+.navigation-link{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color:  var(--accent-colour);
+}
+.navigation-link:hover ,
+.navigation-link:focus{
+    colour: #2196F3;
+}
 
 body {
 background-colour: var (--primary-bg-colour);
 color:  var(--primary-text-colour);
-font-family: Montserrat; sans-serif;
-letter-spacing: -0.015cm;
-font-size: 18px;
-line-height: 1.67; 
+font-family: Roboto;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
 
 
-list-style: none;
-}
-h1,h2,h3{
-font-family: Comfortaa;
-
-}
 /* Hero */
 .hero-title {
-color: var(--title-text-colour);
-font-weight: 400;
-font-size: 56px;
-line-height: 1.42; 
-text-align: center;
-
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
-/* Section */
+.hero-text {
+    font-family: Roboto;
+    font-style: normal;    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.875;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    
+    color: #FFFFFF;
+}
+.hero-text:hover ,
+.hero-text:focus{
+    colour: #2196F3;
+
+/* softskills */
 .section-title {
 color: var(--title-text-colour);
 font-weight: 400;
@@ -80,9 +121,7 @@ font-family: inherit;
     line-height: 1.2; 
    
 }
-.site-nav.link:hover ,
-.site-nav.link:focus{
-    colour: var(--title-text-colour);
+
 }
 .site-nav.link.curent {
     colour: var(--accent-colour);
