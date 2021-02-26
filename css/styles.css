@@ -46,10 +46,9 @@
 }
     .modal-btn:hover,
     .modal-btn:focus 
-    {color: var( --third-bg-colour) ;
+    {background color: var( --third-bg-colour) ;
     color: var(--primary-bg-colour);
-    align-items: center;
-    text-align: center;
+
     }
 
     .modal-btn-filter {
