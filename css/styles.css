@@ -53,22 +53,18 @@
         font-weight: 500;
         font-size: 16px;
         line-height: 1.62;
-        align-items: center;
+        lign-items: center;
         text-align: center;
         letter-spacing: 0.03em;
         cursor: pointer;
-        color: var(--title-text-colour);
-       background-color:  var(--fourth-bg-colour);
-    }
-
-    .modal-btn-filter:hover,
-    .modal-btn-filter:focus
-     { background-color: var(--accent-color);
-      color: var(--primary-bg-colour);
-      align-items: center;
-      text-align: center;
-}
-
+        color: var(--secondary-title-text-colour);
+        background color: var(--fourth-bg-colour);
+      }
+      .modal-btn-filter:hover,
+      .modal-btn-filter:focus {
+        background-color: var(--accent-colour);
+        color: var(--primary-bg-colour);
+      }
 
 
 
