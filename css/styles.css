@@ -105,19 +105,17 @@ color: var(--accent-colour);
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color:  var(--accent-colour);
+    color:  var(--primary-text-colour);
 }
 .navigation-link:hover ,
 .navigation-link:focus,
-.navigation-link:current
+.nav-link:active
 {
     color: var(--accent-colour);
 }
 .current {
     color: var(--accent-colour);
-    align-items: center;
-    text-align: center;
-  }
+   
 .work-title {
     font-weight: 700;
     font-size: 36px;
