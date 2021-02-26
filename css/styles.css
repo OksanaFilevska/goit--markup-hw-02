@@ -15,8 +15,7 @@
     body {
         background-color: var(--primary-bg-colour);
         color:  var(--primary-text-colour);
-        font-family: var(---main-font);
-        }
+        font-family: var(--main-font); }
 .link
 {
     text-decoration: none;
@@ -45,7 +44,7 @@
 }
     .modal-btn:hover,
     .modal-btn:focus 
-    { background color: var (--third-bg-colour);
+    { background-color:var(--third-bg-colour);
     color: var(--primary-bg-colour);
 
     }
@@ -58,8 +57,8 @@
         text-align: center;
         letter-spacing: 0.03em;
         cursor: pointer;
-        color: var(-title-text-colour);
-        background color: var (--fourth-bg-colour);
+        color: var(--title-text-colour);
+       background-color:  var(--fourth-bg-colour);
     }
 
     .modal-btn-filter:hover,
@@ -112,15 +111,15 @@ color: var(--accent-colour);
 
   .navigation-link  
   {
-    font-family: var (---main-font);
+    font-family: var(--main-font);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color:  var(--primary-text-colour);
   }
-    .navigation-link1{
-        font-family: var (---main-font);
+    .navigation-link1 {
+        font-family: var(--main-font);
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
@@ -129,21 +128,20 @@ color: var(--accent-colour);
 }
 .navigation-1 
 {
-    font-family: var (---main-font);
+    font-family: var(--main-font);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color:  var(--footer-colour);
-}
-.navigation-2 {
-    font-family: var (---main-font);
+    color:  var(--footer-colour); }
+.navigation-2 
+{
+    font-family: var(--main-font);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color:  var(--title-text-colour);
-}
+    color:  var(--title-text-colour); }
 .navigation-link1:hover ,
 .navigation-link1:focus,
 .navigation-link1:active {
