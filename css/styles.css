@@ -105,17 +105,19 @@ color: var(--accent-colour);
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color:  var(--primary-text-colour);
+    color:  var(--accent-colour);
 }
 .navigation-link:hover ,
 .navigation-link:focus,
-.nav-link:active
+.navigation-link:current
 {
     color: var(--accent-colour);
 }
 .current {
     color: var(--accent-colour);
-   
+    align-items: center;
+    text-align: center;
+  }
 .work-title {
     font-weight: 700;
     font-size: 36px;
@@ -135,12 +137,14 @@ color: var(--accent-colour);
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color:  var(--accent-colour);
+    color:  var(--primary-text-colour);
 }
 .navigation-link:hover ,
 .navigation-link:focus,
 .nav-link:active {
     color:   var(--accent-colour);
+    align-items: center;
+    text-align: center;
 }
 
 
@@ -223,7 +227,7 @@ color: var(--accent-colour);
   }
   /*   END FOOTER   */
   
-/*   GALLERY   */
+/*   GALLERY  */
 .gallery-list-title {
     font-weight: 700;
     font-size: 18px;
