@@ -9,7 +9,7 @@
     --third-bg-colour:#188ce8;
     --accent-colour: #2196F3;
     --fourth-bg-colour:#f5f4fa;
-    
+    --footer-colour: rgba(255, 255, 255, 0.6);
 }
 
     body {
@@ -138,6 +138,14 @@ color: var(--accent-colour);
     line-height: 1.14;
     letter-spacing: 0.02em;
     color:  var(--primary-text-colour);
+}
+.navigation-1{
+    font-family: var (---main-font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color:  var(--footer-colour);
 }
 .navigation-link:hover ,
 .navigation-link:focus,
