@@ -97,26 +97,7 @@ color: var(--accent-colour);
         .logo-2  {
             color: var(--primary-bg-colour);
          }
-
-
-.navigation-link{
-    font-family: var (---main-font);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color:  var(--accent-colour);
-}
-.navigation-link:hover ,
-.navigation-link:focus,
-.navigation-link:current
-{
-    color: var(--accent-colour);
-}
-.current {
-    color: var(--accent-colour);
     
-  }
 .work-title {
     font-weight: 700;
     font-size: 36px;
@@ -233,14 +214,7 @@ color: var(--accent-colour);
   .footer {
     background-color: var(--secondary-bg-colour);
   }
-  .address-list-link {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: var(--primary-bg-colour);
-  }
- 
+  
   /*   END FOOTER   */
   
 /*   GALLERY  */
@@ -256,6 +230,6 @@ color: var(--accent-colour);
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
-    color: var(--var(--primary-text-colour));
+    color: var(--primary-text-colour);
   }
   /*  END GALLERY    */
