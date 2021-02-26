@@ -115,8 +115,7 @@ color: var(--accent-colour);
 }
 .current {
     color: var(--accent-colour);
-    align-items: center;
-    text-align: center;
+    
   }
 .work-title {
     font-weight: 700;
@@ -138,6 +137,14 @@ color: var(--accent-colour);
     line-height: 1.14;
     letter-spacing: 0.02em;
     color:  var(--primary-text-colour);
+  }
+    .navigation-link1{
+        font-family: var (---main-font);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color:  var(--secondary-title-text-colour);
 }
 .navigation-1{
     font-family: var (---main-font);
@@ -147,12 +154,19 @@ color: var(--accent-colour);
     letter-spacing: 0.02em;
     color:  var(--footer-colour);
 }
+.navigation-2{
+    font-family: var (---main-font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color:  var(--title-text-colour);
+}
 .navigation-link:hover ,
 .navigation-link:focus,
 .nav-link:active {
     color:   var(--accent-colour);
-    align-items: center;
-    text-align: center;
+    
 }
 
 
