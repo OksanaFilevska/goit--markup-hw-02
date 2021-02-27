@@ -10,6 +10,7 @@
     --accent-colour: #2196F3;
     --fourth-bg-colour:#f5f4fa;
     --footer-colour: rgba(255, 255, 255, 0.6);
+    --our-team-color:#E5E5E5;
 }
 
     body {
@@ -209,6 +210,10 @@ color: var(--accent-colour);
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
+  }
+
+  .team {
+background-color: var(--our-team-color);
   }
   /*      END OUR TEAM       */
   /*   FOOTER     */
